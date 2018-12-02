@@ -2,14 +2,13 @@
 
 ## 作用
 
-据用户反应，jenkins在ssh连接时候会出现连接失败的情况，导致任务失败。
-为了调试这个问题，我写了一个sshping的工具来观察这个现象。
+测试ssh的延时
 
 ## 安装
 
 需要python3，以及paramiko库。
 
-centos下需要
+centos7下需要
 '''
 yum install -y python34 python34-pip
 '''
